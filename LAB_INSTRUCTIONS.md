@@ -1,6 +1,6 @@
 # Lab 6 Git and GitHub for Software Development Management
 
-**Five short exercises  |  About 30 minutes**
+**Five short exercises**
 
 Use Git to manage a small SaaS project's scope and release planning documents. Create two versions, synchronize a team update, merge a release checklist and undo one temporary mistake.
 
@@ -8,9 +8,9 @@ Use Git to manage a small SaaS project's scope and release planning documents. C
 
 Submit your public GitHub repository URL and one PDF report with exactly five short answers and five screenshots. Use the supplied report template.
 
-## Before the timed lab
+## Preparation
 
-Have Git installed and a GitHub account ready. Use Git Bash on Windows so the commands in this handout match your terminal. Complete any first-time GitHub sign-in prompt before starting. Installation and account setup are outside the 30-minute activity.
+Have Git installed and a GitHub account ready. Use Git Bash on Windows so the commands in this handout match your terminal. Complete GitHub sign-in before starting.
 
 Create an empty PUBLIC GitHub repository named SEG4105_Lab6 in your own account: click the + menu, New repository, enter the name, choose Public and click Create repository. Leave README, .gitignore and license initialization unchecked.
 
@@ -22,13 +22,11 @@ When creating README.md or release-checklist.md, use those exact names. In Windo
 
 Text labelled Editor is typed into the named file, not into the terminal. Text labelled Terminal is run in Git Bash. Replace YOUR-USERNAME, YOUR-NAME and YOUR-GIT-EMAIL with your own values. The commands do not include a prompt symbol to copy.
 
-Suggested pace: Exercises 1 to 5 take about 6, 5, 6, 5 and 3 minutes, followed by 5 minutes to finish the short report.
-
 Public instructor example: https://github.com/Zwang-23/SEG4105_Lab6. The example is already completed; create your own empty repository for the exercises.
 
 # Exercise 1 Set up a shared project repository
 
-**Repository Setup Pipeline  |  About 6 minutes**
+**Repository Setup Pipeline**
 
 Management purpose: establish a shared starting baseline for the project.
 
@@ -79,7 +77,7 @@ S1: your GitHub repository page after the first push. Show the public repository
 
 # Exercise 2 Record a scope change
 
-**Local Staging Pipeline  |  About 5 minutes**
+**Local Staging Pipeline**
 
 Management purpose: record change request CR01, adding CSV export to the project scope.
 
@@ -127,7 +125,7 @@ S2: one terminal screenshot showing git log --oneline -2 and the v1 to v2 diff.
 
 # Exercise 3 Pull and push a team update
 
-**Collaboration Pipeline  |  About 6 minutes**
+**Collaboration Pipeline**
 
 Management purpose: exchange an update about who will test the new feature. You will simulate a teammate by editing on GitHub.
 
@@ -182,7 +180,7 @@ S3: one terminal screenshot showing the successful pull and push output. Scroll 
 
 # Exercise 4 Merge a release checklist
 
-**Feature Lifecycle Pipeline  |  About 5 minutes**
+**Feature Lifecycle Pipeline**
 
 Management purpose: prepare release checks on a branch and integrate them into the shared project.
 
@@ -238,7 +236,7 @@ S4: one terminal screenshot showing the branch graph and release-checklist.md co
 
 # Exercise 5 Undo an uncommitted edit
 
-**Correction Pipeline  |  About 3 minutes**
+**Correction Pipeline**
 
 Management purpose: inspect and undo a mistaken document edit before it enters the shared baseline.
 

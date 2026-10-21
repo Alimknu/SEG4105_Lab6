@@ -7,7 +7,7 @@ Manager update: CSV export testing assigned to QA.
 
 ## Lab materials
 
-This is the completed instructor example for a 30-minute introductory lab.
+This is the completed instructor example for an introductory lab.
 Students submit five short answers and five screenshots from their own repository.
 
 - [Step-by-step instructions](LAB_INSTRUCTIONS.md)
